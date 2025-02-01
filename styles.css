@@ -1,0 +1,60 @@
+*{
+    background-color:#000000;
+    color:#FFFFFF
+  }
+  h1, p, li, h3, div{
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  }
+  h1{
+    text-align:center;
+    color:red;
+  }
+  p{
+  text-align:center;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #img-caption {
+    text-align: center;
+  }
+  div{
+    text-align:center;
+    font-weight: 300;
+  }
+  h3{
+    color:red;
+    text-align:center;
+  }
+  ul{
+    display:block;
+    margin:0 auto 0 auto;
+    max-width:850px;
+  }
+  li{
+    display:list-item;
+  
+    text-align: left;
+    font-weight: 450;
+  }
+  a{
+    color:red; 
+  }
+  a:hover{
+    color:violet;
+  }
+  a:visited{
+    color:#660033;
+  }
